@@ -45,52 +45,23 @@ I do not even know where to start. In January 2021, the new RP2040 microcontroll
 ## Built With
 
 Hardware parth:
-IDE - Visual Studio Code
+IDE - Visual Studio Code;
 SDK - Pico SDK
+
 Software parth:
-QT-Creator
+QT-Creator;
 And Qt6 framework.
 
-## Getting Started
 
-In progress
 
-### Prerequisites
+## Installation
 
-In progress
 
-In progress
-
-This is an example of how to list things you need to use the software and how to install them.
-
-* npm
+Run auto-install script
 
 ```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-In progress
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
-
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Enter your API in `config.js`
-
-```JS
-const API_KEY = 'ENTER YOUR API';
+wget https://github.com/3DThing/RP-2040ProjectGenerator/blob/main/installer.py
+python installer.py
 ```
 
 ## Usage
