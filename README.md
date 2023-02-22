@@ -38,7 +38,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](images/Скриншот_RP2040-projectgenerator_20230222033514.jpg)
 
 I do not even know where to start. In January 2021, the new RP2040 microcontroller was released. Everything would be fine, but against the backdrop of the problem of semiconductors and the shortage of STM32, this microcontroller attracts a lot of attention. Getting to know each other better. Found that he has a high entry threshold for writing C++ code. Compatible with arduino, but many functions do not work as they should. The creators of the chip made a project generator, but it does not work either (although this may be my long-standing feud with python). Installing PicoSDK and what to do with it then also creates a number of problems. Therefore, I came up with the idea to make my own project generator with blackjack and slutty girls, but you can download and use it at your discretion.
 
@@ -94,6 +94,8 @@ const API_KEY = 'ENTER YOUR API';
 ```
 
 ## Usage
+
+![Screen Shot](images/Скриншот_RP2040-projectgenerator_20230222033425.jpg)
 
 Just run the executable.
 
