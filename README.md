@@ -60,8 +60,8 @@ And Qt6 framework.
 Run auto-install script
 
 ```sh
-wget https://github.com/3DThing/RP-2040ProjectGenerator/blob/main/installer.py
-python installer.py
+wget https://raw.githubusercontent.com/3DThing/RP-2040ProjectGenerator/main/installer.py
+python3 installer.py
 ```
 
 ## Usage
