@@ -105,15 +105,23 @@ To open an existing project, just enter the name of the project, the project wil
 ## Roadmap
 
 Ready:
+
 Project creation.
+
 Compiling the project.
+
 Loading a project in VS Code.
+
 Linking libraries (not final version).
+
 Own libraries for working with I / O ports as well as timer interrupts (similar to Arduino). Read more...
 
 In the plans:
+
 Implementation of a serial monitor.
+
 Development of their libraries.
+
 Develop your own code editor or IDE.
 
 ## Contributing
