@@ -20,6 +20,5 @@ if start == "y" or start == "Y":
         os.system("git clone https://github.com/3DThing/RP-2040ProjectGenerator")
         os.system("mv RP-2040ProjectGenerator/Bin/RP2040-projectgenerator_linux  ~/pico/")
         os.system("mv RP-2040ProjectGenerator/Bin/lib ~/pico/")
-        os.system("rm -R RP-2040ProjectGenerator")
 else:
     print("Goodby")
