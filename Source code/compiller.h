@@ -18,7 +18,6 @@ class Compiller : public QWidget
 public:
     explicit Compiller(QWidget *parent = nullptr);
     ~Compiller();
-
     QString dirbuild;
     QString prjname;
 
