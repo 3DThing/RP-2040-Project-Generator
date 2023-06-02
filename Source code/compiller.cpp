@@ -59,6 +59,7 @@ void Compiller::compillerslots(QString name, QString dirproject)
     comm.waitForReadyRead();
     ui->console->append(comm.readAll());
     }
+    
     comm.start("make", arr2);
     while(comm.waitForFinished()){
         comm.waitForReadyRead();
@@ -67,7 +68,7 @@ void Compiller::compillerslots(QString name, QString dirproject)
     if(QFile::exists(dirproject + "/" + prjname + ".uf2")){
         ui->Complete->setEnabled(true);
         ui->Complete->setText("Complete");
-    }else{
+    } else {
         ui->Complete->setEnabled(true);
         ui->Complete->setText("Error");
     }
